@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build soundex",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "main.cpp", "SoundexTest.cpp", 
+                "-I",  "C:/googletest/include",
+                "-L", "C:/googletest/lib.release/libgtest_main.a", "C:/googletest/lib.release/libgtest.a"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
