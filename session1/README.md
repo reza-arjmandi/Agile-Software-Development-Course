@@ -4,6 +4,5 @@ In this session we are going to talk about values and principles of the **manife
 
 ## Bibliography
 
-Robert C. Martin - Agile Software Development, Principles, Patterns, and Practices-Prentice Hall (2002).
-
+Robert C. Martin - Agile Software Development, Principles, Patterns, and Practices-Prentice Hall (2002).  
 Git tutorials: https://www.atlassian.com/git/tutorials.
