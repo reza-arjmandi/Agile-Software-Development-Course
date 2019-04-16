@@ -1,8 +1,6 @@
 #include "pch.h"
 #include "TaskScheduler.h"
 
-using namespace BusinessRules;
-
 TaskScheduler::TaskScheduler(
 	std::unique_ptr<ITaskRunner> taskRunner, 
 	std::vector<StateMachine> stateMachineMap, 

@@ -1,15 +1,10 @@
 #pragma once
 
-namespace Entities
+class ITask
 {
 
-	class ITask
-	{
+public:
+	virtual ~ITask() = default;
+	virtual bool Run() = 0;
 
-	public:
-		virtual ~ITask() = default;
-		virtual bool Run() = 0;
-
-	};
-
-}
+};

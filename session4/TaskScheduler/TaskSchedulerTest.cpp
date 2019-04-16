@@ -5,9 +5,6 @@
 #include "MockTask.h"
 #include "MockTaskHandler.h"
 
-using namespace BusinessRules;
-using namespace Test;
-
 class TaskSchedulerTest : public testing::Test
 {
 
