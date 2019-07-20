@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<PropertyGroup>
+		<GoogleTestIncludeDirPath>C:\ThirdParty\googletest\include</GoogleTestIncludeDirPath>
+    <GoogleTestLibDebugDirPath>C:\ThirdParty\googletest\lib.debug</GoogleTestLibDebugDirPath>
+    <GoogleTestLibReleaseDirPath>C:\ThirdParty\googletest\lib.release</GoogleTestLibReleaseDirPath>
+    <GoogleTestLibsDebug>gmock_maind.lib;gmockd.lib;gtest_maind.lib;gtestd.lib</GoogleTestLibsDebug>
+    <GoogleTestLibsRelease>gmock_main.lib;gmock.lib;gtest_main.lib;gtest.lib</GoogleTestLibsRelease>
+	</PropertyGroup>
+
+</Project>
