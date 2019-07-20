@@ -1,8 +1,0 @@
-﻿  SoundexTest.cpp
-  Generating code
-c:\users\user\desktop\agile-software-development-course\session2\soundex-vs\soundex\soundextest.cpp(33): warning C4715: 'Soundex::StrToEncodedDigit': not all control paths return a value
-  21 of 423 functions ( 5.0%) were compiled, the rest were copied from previous compilation.
-    9 functions were new in current compilation
-    48 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  Soundex.vcxproj -> C:\Users\User\Desktop\Agile-Software-Development-Course\session2\Soundex-VS\x64\Release\Soundex.exe
